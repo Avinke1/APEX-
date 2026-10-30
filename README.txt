@@ -1,7 +1,9 @@
-DATA COLLECTION - room scanner
+FRONTEND - APEX 3D Campus Walkthrough
 
-js/room-scanner.js       camera + motion-sensor scan: mark corners, door, ceiling height, or type the size; saves a room record
-scanner-overlay.html     reference copy of the scanner screen markup (the live copy is in frontend/index.html)
+index.html                      page markup, styles, script loading order
+js/scene-and-navigation.js      three.js scene, labels, route ribbon, orbit/walk/AR camera, QR, minimap, UI wiring
+js/my-rooms.js                  builds saved rooms in 3D, My rooms list
+js/campuses-and-init.js         multiple places (campus/house/office) and app start-up
 
 How the three zips fit together
 -------------------------------
