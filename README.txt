@@ -1,9 +1,7 @@
-BACKEND - data, routing, storage
+DATA COLLECTION - room scanner
 
-js/core.js          helpers ($, clamp) and shared state
-js/campus-data.js   campus graph: locations, nodes, edges, stairs, floors
-js/pathfinding.js   A* route search (with step-free option) and floor heights
-js/storage.js       saveState()/loadState() on localStorage (moved out of the UI code)
+js/room-scanner.js       camera + motion-sensor scan: mark corners, door, ceiling height, or type the size; saves a room record
+scanner-overlay.html     reference copy of the scanner screen markup (the live copy is in frontend/index.html)
 
 How the three zips fit together
 -------------------------------
